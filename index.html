@@ -7,27 +7,18 @@
   <link rel="stylesheet" href="style.css" type="text/css" />
   <script>
     function pageRedirect() {
-      // window.location.href = "malta://malta.com";
       setTimeout(function () {
-        window.location.href = "malta://malta.com";
-      }, 4000
+        console.log(window.location.search)
+        window.location.href = "malta://malta.com" + window.location.search;
+      }, 1000
       );
-      // window.location.replace("malta://malta.com");
     }
     pageRedirect();
-      // setTimeout("pageRedirect()");
   </script>
 </head>
 
-<body>
-  <!-- <iframe src="malta://malta.com" width="1px" height="1px" scrolling="no" frameborder="0"></iframe>
-    <script>
-      // window.location = "malta://matla.com"; 
-      setTimeout(function() {
-      window.location = "malta://matla.com"; }, 4000
-                      );
-      </script> -->
-  <div class="swiper-slide-bg" style="background-image: url('images/background.jpg');"></div>
+<body <div class="swiper-slide-bg" style="background-image: url('images/background.jpg');">
+  </div>
   <div class="download-text">
     <div class="play-store-icon">
       <a href="https://play.google.com/store/apps/details?id=org.chimple.bahama"><img
