@@ -7,7 +7,11 @@
   <link rel="stylesheet" href="style.css" type="text/css" />
   <script>
     function pageRedirect() {
-      window.location.href = "malta://malta.com";
+      // window.location.href = "malta://malta.com";
+      setTimeout(function () {
+        window.location = "malta://matla.com";
+      }, 3000
+      );
       // window.location.replace("malta://malta.com");
     }
     pageRedirect();
