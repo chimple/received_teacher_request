@@ -13,7 +13,11 @@
       }, 1000
       );
     }
-    pageRedirect();
+    var userAgent = navigator.userAgent.toLowerCase();
+    var Android = userAgent.indexOf("android") > -1;
+    if (Android) {
+      pageRedirect();
+    }
   </script>
 </head>
 
