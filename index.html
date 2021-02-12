@@ -8,7 +8,10 @@
   <script>
     function pageRedirect() {
       // window.location.href = "malta://malta.com";
-      window.location = "malta://matla.com";
+      setTimeout(function () {
+        window.location.href = "malta://malta.com";
+      }, 4000
+      );
       // window.location.replace("malta://malta.com");
     }
     pageRedirect();
