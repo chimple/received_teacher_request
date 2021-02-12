@@ -1,10 +1,98 @@
-.swiper-slide-bg {
+.header, .footer{
+    width: 100%;
+    position: fixed;        
+    background: #fff;
+    padding: 10px 0;
+    color: #fff;
+}
+.header{
+    top: 0;
+}
+.footer{
+    color: black !important; 
+    bottom: 0;
+    text-align: center;
+}
+
+.body{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.boxed {
+    padding: 8px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #FE6B3F;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 22px;
+    line-height: 32px;
+    display: inline-block;
+    margin-top: 12px;
+    text-transform: uppercase;
+    font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .boxed a{
+    color: #fff;
+    padding: 7px 25px;
+    display: inline-block;
+}
+#contact-us{
+    float: right;
+    padding-right: 80px;
+    color: #FE6B3F;
+    text-transform: uppercase;
+    font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.footer p{
+    font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+    color: black;
+}
+ a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  hr{
+    height: 1px;
+    width: 100%;
+    border: none;
+    background: #ededf4;
+  }
+
+  #already-installed{
+    position: absolute;
+    padding: 8px 40px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    text-align: center;
+  }
+  #already-installed a{
+    color: blue;
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+  }
+
+/* .swiper-slide-bg {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-.swiper-slide-bg {
-	position: absolute;
+    position: absolute;
 	width: 100%;
 	height: 100%;
 	z-index: -1;
@@ -55,4 +143,6 @@ a {
     color: #62bbc1;
     background-color: transparent;
     text-decoration: underline;
-  }
+  } */
+
+  
