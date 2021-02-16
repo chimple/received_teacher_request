@@ -9,7 +9,7 @@
     function pageRedirect() {
       setTimeout(function () {
         console.log(window.location.search)
-        window.location.href = "chimple://chimple.net/received_teacher_request" + window.location.search;
+        window.location.href = "chimple://chimple.net" + window.location.search;
       }, 1000
       );
     }
@@ -46,7 +46,7 @@
     </div>    
     <div id="already-installed">
       <p>Already installed chimple?</p>
-      <a href="chimple://chimple.net/received_teacher_request" + window.location.search>Launch Chimple</a>
+      <a href="chimple://chimple.net/" + window.location.search>Launch Chimple</a>
     </div>
   </body>
 
